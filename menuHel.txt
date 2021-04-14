@@ -1,0 +1,46 @@
+เมนูสุขภาพ
+
+
+mainMenu = เมนูผักผลไม้เพื่อสุขภาพ
+https://www.taladsrimuang.com/site/healthmenu/dataVe.php
+submenu
+https://www.taladsrimuang.com/site/healthmenu/dataSubMenuVe.php?id=7
+Detail
+https://www.taladsrimuang.com/site/healthmenu/dataDetailSubVe.php?id=38
+
+mainMenu = สมุนไพรเพื่อสุขภาพ 
+https://www.taladsrimuang.com/site/healthmenu/dataHerb.php
+submenu
+https://www.taladsrimuang.com/site/healthmenu/dataSubMenuVe.php?id=1
+Detail
+https://www.taladsrimuang.com/site/healthmenu/dataDetailSubVe.php?id=1
+
+
+mainMenu = เมนูอาหารต้านโควิด
+https://www.taladsrimuang.com/site/healthmenu/dataFoods.php
+
+Detail
+https://www.taladsrimuang.com/site/healthmenu/detailFoods.php?id=179
+
+
+mainMenu = เมนูเกี่ยวกับโรค
+https://www.taladsrimuang.com/site/healthmenu/dataHeal.php
+submenu
+https://www.taladsrimuang.com/site/healthmenu/dataHealDetail.php?id=1
+
+ 
+mainMenu = เมนูสุขภาพกับหมอพรเทพ
+https://www.taladsrimuang.com/site/healthmenu/dataTbHeal.php
+Detail
+https://www.taladsrimuang.com/site/healthmenu/dataTbHealDetail.php?id=1
+
+
+//
+คำนำเมนูสุขภาพ
+https://www.taladsrimuang.com/site/healthmenu/inTro1.html
+
+คำแถลงยุทธศาสตร์
+https://www.taladsrimuang.com/site/healthmenu/inTro2.html
+
+เอกสารอ้างอิง
+https://www.taladsrimuang.com/site/healthmenu/inTro2.html

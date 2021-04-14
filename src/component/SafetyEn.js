@@ -1,0 +1,16 @@
+import React from "react";
+
+import HeaderEn from "./HeaderEn";
+import FooterEn from "./FooterEn";
+
+const SafetyEn = () => {
+  return (
+    <div>
+      <HeaderEn />
+      ความปลอดภัย
+      <FooterEn />
+    </div>
+  );
+};
+
+export default SafetyEn;
