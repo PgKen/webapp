@@ -17,6 +17,9 @@ const Qanda = () => {
   const [Data, setData] = useState([]);
   const [Idpreview, setIdpreview] = useState(null);
 
+  const [Detail, setDetail] = useState("");
+
+
   function loadData() {
     setData([])
     axios
@@ -117,6 +120,14 @@ const Qanda = () => {
     console.log(id);
   }
 
+  function newsDetail(e) {
+    let model = e.target.value;
+    // console.log("model = " +  model);
+    setDetail(model);
+    setAnwser(model);
+
+  }
+
   function updateStatus(id,i){
     console.log("id = "+id);
     console.log("i = "+i);
@@ -143,11 +154,18 @@ const Qanda = () => {
         />
         <br />
         <label>คำตอบ</label>
-        <FroalaEditorComponent
+        {/* <FroalaEditorComponent
           onModelChange={handleModelChange}
           name="answer"
           model={Answer}
-        />
+        /> */}
+        <textarea
+          className=" form-control"
+          rows="5"
+          cols="120"
+          onChange={(e) => newsDetail(e)}
+          value={Answer}
+        ></textarea>
         <br />
         <button className="btn btn-primary" type="submit">
           ตกลง
