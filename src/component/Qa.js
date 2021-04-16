@@ -5,7 +5,8 @@ const Qa = () => {
   const [Data, setData] = useState([]);
   const [Isloading, setIsloading] = useState(true);
 
-  let webBase = "http://localhost:3435";
+  // let webBase = "http://localhost:3435";
+  let webBase = "https://taladsrimuang.com:3435";
 
   function loadData() {
     console.log("load Data");

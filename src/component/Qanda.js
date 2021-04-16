@@ -10,6 +10,7 @@ import ReactHtmlParser, {
 } from "react-html-parser";
 
 let baseUrl = "http://localhost:3435";
+// let baseUrl = "http://taladsrimuang.com:2435";
 
 const Qanda = () => {
   const [Question, setQuestion] = useState(null);
@@ -18,8 +19,7 @@ const Qanda = () => {
   const [Idpreview, setIdpreview] = useState(null);
 
   const [Detail, setDetail] = useState("");
-
-
+  
   function loadData() {
     setData([])
     axios
